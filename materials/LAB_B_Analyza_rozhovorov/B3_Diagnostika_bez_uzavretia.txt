@@ -1,0 +1,57 @@
+NÁZOV: Obchodný rozhovor 3 - dobrá diagnostika bez uzavretia ďalšieho kroku
+PRODUKT: firemné školenie Bezpečná práca s AI
+ÚČASTNÍCI: Lucia, konzultantka; Peter, prevádzkový riaditeľ servisnej spoločnosti
+
+Lucia: Čo potrebujete po školení zmeniť v každodennej práci?
+
+Peter: Chceme, aby servisní koordinátori vedeli rýchlejšie spracovať e-maily a servisné protokoly, ale nesmú kopírovať údaje zákazníkov do verejných nástrojov.
+
+Lucia: Koľko ľudí a aké typy dokumentov spracúvajú?
+
+Peter: Šesťdesiat koordinátorov. Denne riešia e-maily, fotografie zariadení, sériové čísla a protokoly. Máme firemný Copilot, ale používajú ho málo.
+
+Lucia: Prečo ho nepoužívajú?
+
+Peter: Časť ľudí nevie, čo sa môže. Časť neverí výsledkom. A niektorí používajú súkromné účty v iných nástrojoch.
+
+Lucia: Máte pravidlá a technické obmedzenia?
+
+Peter: Máme krátke usmernenie od IT. Nie je však praktické. Zakazuje osobné údaje, ale nevysvetľuje fotografie, sériové čísla alebo text protokolu.
+
+Lucia: Vidím tri oblasti: klasifikácia údajov, kontrola výstupu a konkrétne pracovné scenáre. Mali by sme používať ukážky servisného protokolu bez identifikátorov. Potrebujeme aj človeka z IT, ktorý potvrdí hranice firemného Copilota.
+
+Peter: Súhlasím. Ľudia potrebujú presné príklady „toto áno, toto nie“.
+
+Lucia: Ako chcete merať výsledok?
+
+Peter: Ideálne skrátenie času pri administratíve. To však nevieme jednoducho merať. Vieme urobiť test a sledovať počet incidentov.
+
+Lucia: Navrhovala by som vstupný scenár, záverečný scenár a kontrolu po šiestich týždňoch. Samotné hodnotenie spokojnosti by nestačilo. Aký čas máte k dispozícii?
+
+Peter: Dve hodiny na skupinu. Skupiny po pätnásť ľudí.
+
+Lucia: To sú štyri skupiny. Potrebujete záznam?
+
+Peter: Nie. Obsahuje interné príklady a ľudia by sa pri nahrávaní menej pýtali.
+
+Lucia: Kto schvaľuje obsah?
+
+Peter: Ja, vedúci IT a poverenec pre ochranu údajov. Nákup sa zapojí pri objednávke.
+
+Lucia: Máte termín a rozpočet?
+
+Peter: Chceli by sme to do konca septembra. Rozpočet je približne 6 000 eur.
+
+Lucia: Rozsah vyzerá realisticky. Potrebujeme pripraviť štyri anonymizované scenáre a krátky kontrolný materiál. Začala by som pilotnou skupinou, aby sme overili, či je terminológia zrozumiteľná.
+
+Peter: To dáva zmysel.
+
+Lucia: Pošlem vám opis programu a zoznam podkladov.
+
+Peter: Dobre.
+
+Lucia: Ďakujem, to je z mojej strany všetko.
+
+Peter: Ďakujem, dovidenia.
+
+Poznámka pozorovateľa: Po hovore nebol dohodnutý termín ďalšieho stretnutia, vlastník dodania podkladov, dátum zaslania návrhu ani proces schválenia pilotu.
