@@ -1,0 +1,7 @@
+LAB A - POROVNANIE ODBORNÝCH NÁVODOV
+1. Pridáme A1, A2 a A3.
+2. Vytvoríme samostatné profily zdrojov.
+3. Porovnáme konsenzus, rozdiely a priame rozpory.
+4. Navrhneme šesťkrokový workflow s pôvodom každého kroku.
+5. Otvoríme citáciu pri jednom konsenze a jednom rozpore.
+Výstup: porovnávacia matica a workflow.
