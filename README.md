@@ -1,8 +1,6 @@
 # 🧪 Google NotebookLM Praktické cvičenia
 
-Praktický repozitár pre online kurz **Google NotebookLM Praktické cvičenia** na mierne pokročilej úrovni.
-
-Kurz je určený používateľom, ktorí už vedia vytvoriť notebook, pridať zdroje, používať chat a otvárať citácie. Nezaoberáme sa základným ovládaním. Trénujeme postupy, ktoré pomáhajú získať presnejšie, overiteľné a reálne použiteľné výstupy.
+Praktický repozitár pre online kurz **Google NotebookLM Praktické cvičenia** na mierne pokročilej úrovni. Kurz je určený používateľom, ktorí už vedia vytvoriť notebook, pridať zdroje, používať chat a otvárať citácie. Nezaoberáme sa základným ovládaním. Trénujeme postupy, ktoré pomáhajú získať presnejšie, overiteľné a reálne použiteľné výstupy. V kurze pracujeme najmä s porovnávaním viacerých zdrojov, analýzou prepisov, rozpoznávaním zmien medzi verziami dokumentov, kontrolou citácií a syntézou oficiálnej dokumentácie.
 
 > NotebookLM nepoužívame iba na sumarizovanie. Používame ho na riadenú analýzu zdrojov, porovnávanie tvrdení a tvorbu výstupov, ktoré vieme spätne overiť.
 
@@ -166,7 +164,7 @@ Kurz pozostáva zo štyroch samostatných laboratórií.
 
 Pracujeme s tromi rozdielnymi návodmi na používanie NotebookLM. Každý autor zdôrazňuje inú pracovnú filozofiu.
 
-Hľadáme:
+Úlohou nie je vytvoriť tri samostatné zhrnutia. Hľadáme:
 
 - odporúčania, na ktorých sa autori zhodujú,
 - odporúčania, v ktorých si odporujú,
@@ -186,7 +184,13 @@ Rozhovory sú zámerne rozdielne:
 - prezentovanie funkcií bez pochopenia problému,
 - dobrá analýza bez jasne dohodnutého ďalšieho kroku.
 
-Výstupom je zoznam potrieb zákazníka, register námietok, hodnotenie reakcií obchodníka, dôkazy z konkrétnych pasáží a praktický koučovací plán.
+Výstupom je:
+
+- zoznam potrieb zákazníka,
+- register námietok,
+- hodnotenie reakcií obchodníka,
+- dôkazy z konkrétnych pasáží,
+- praktický koučovací plán.
 
 ### LAB C: Porovnanie verzií
 
@@ -207,7 +211,7 @@ Výstupom je zmenový protokol, ktorý neprezentuje diskutovaný návrh ako plat
 
 Pracujeme s oficiálnou dokumentáciou NotebookLM.
 
-Z dokumentácie extrahujeme:
+Nehľadáme všeobecný opis produktu. Z dokumentácie extrahujeme:
 
 - pracovné situácie,
 - odporúčané funkcie,
@@ -229,9 +233,20 @@ notebook-lab/
     ├── 03_Riesenia_a_hodnotenie.md
     ├── 04_Tahak_prompty.md
     ├── LAB_A_Porovnanie_navodov/
+    │   ├── A1_... až A3_...      # offline prepisy odborných návodov
+    │   ├── A4_...                # zadanie a kontrolné kritériá
+    │   └── A5_...                # verejné YouTube zdroje
     ├── LAB_B_Analyza_rozhovorov/
+    │   ├── B1_... až B3_...      # modelové rozhovory
+    │   └── B4_...                # zadanie a kontrolné kritériá
     ├── LAB_C_Porovnanie_verzii/
+    │   ├── C1_...                # smernica, verzia 1
+    │   ├── C2_...                # smernica, verzia 2
+    │   ├── C3_...                # zápisnica zo schvaľovania
+    │   └── C4_...                # zadanie a kontrolné kritériá
     └── LAB_D_Oficialna_synteza/
+        ├── D1_...                # zoznam oficiálnych zdrojov
+        └── D2_...                # zadanie a kontrolné kritériá
 ```
 
 Hlavné materiály:
@@ -264,6 +279,8 @@ Základný postup:
 
 ## 🧠 Praktický analytický workflow
 
+Pri každom laboratóriu používame rovnakú logiku:
+
 ```text
 výber zdrojov
     ↓
@@ -279,6 +296,49 @@ audit citácií
 ```
 
 Nevytvárame finálne odporúčanie hneď v prvom prompte. Najskôr získame fakty a dôkazy, až potom vytvárame interpretáciu.
+
+### Prompt na porovnanie zdrojov
+
+```text
+Porovnaj všetky vybrané zdroje.
+
+Vytvor tabuľku so stĺpcami:
+- téma,
+- spoločné tvrdenie,
+- odlišné alebo protichodné tvrdenie,
+- zdroj,
+- dôkaz,
+- miera istoty.
+
+Rozpory nezlučuj vlastným odhadom. Ak sa zdroje nezhodujú, zachovaj obe verzie.
+```
+
+### Prompt na oddelenie faktov od interpretácií
+
+```text
+Rozdeľ zistenia do štyroch kategórií:
+- fakt priamo uvedený v zdroji,
+- výpočet odvodený zo zdrojových údajov,
+- interpretácia,
+- odporúčanie.
+
+Pri každom bode uveď zdroj alebo vysvetli, že ide o vlastnú interpretáciu.
+```
+
+### Prompt na audit citácií
+
+```text
+Vyber päť najdôležitejších tvrdení z odpovede.
+
+Pri každom tvrdení uveď:
+- citovaný zdroj,
+- presnú podporu v zdroji,
+- či ide o priamu alebo nepriamu podporu,
+- či citácia podporuje celé tvrdenie,
+- možné riziko nesprávneho výkladu.
+```
+
+Ďalšie promptové vzory sú v súbore [`04_Tahak_prompty.md`](materials/04_Tahak_prompty.md).
 
 ## ✅ Kritériá kvalitného výstupu
 
@@ -306,6 +366,8 @@ Výstup považujeme za kvalitný, keď:
 | Použiteľnosť výsledného výstupu | 2 |
 | **Spolu** | **10** |
 
+Podrobné riešenia a hodnotiaca rubrika sú v súbore [`03_Riesenia_a_hodnotenie.md`](materials/03_Riesenia_a_hodnotenie.md).
+
 ## ⚠️ Časté chyby pri práci s NotebookLM
 
 ### Zapnutie všetkých zdrojov bez dôvodu
@@ -332,7 +394,7 @@ Zápisnica môže obsahovať diskutovaný, zamietnutý aj schválený návrh. Ne
 
 Pri analýze rozhovorov nepoužívame všeobecné závery typu „obchodník komunikoval zle“. Vyžadujeme konkrétnu pasáž a vysvetlenie jej dôsledku.
 
-## 🔒 Bezpečnosť a ochrana údajov
+## 🔒 Bezpečnosť a ochrana údajov NotebookLM
 
 Cvičné rozhovory, smernice a zápisnice v tomto repozitári sú modelové vzdelávacie dáta.
 
@@ -349,18 +411,18 @@ Pri práci s vlastnými materiálmi dodržiavame tieto pravidlá:
 
 Funkcie NotebookLM sa priebežne menia. Pred školením preto kontrolujeme aktuálnu dokumentáciu.
 
-- [NotebookLM Help](https://support.google.com/notebooklm/)
-- [Add or discover new sources](https://support.google.com/notebooklm/answer/16215270)
-- [Use chat in NotebookLM](https://support.google.com/notebooklm/answer/16179559)
-- [Create and manage notes](https://support.google.com/notebooklm/answer/16262519)
-- [Generate Audio Overviews](https://support.google.com/notebooklm/answer/16212820)
-- [Generate Slide Decks](https://support.google.com/notebooklm/answer/16757456)
+- NotebookLM Help: https://support.google.com/notebooklm/
+- Add or discover new sources: https://support.google.com/notebooklm/answer/16215270
+- Use chat in NotebookLM: https://support.google.com/notebooklm/answer/16179559
+- Create and manage notes: https://support.google.com/notebooklm/answer/16262519
+- Generate Audio Overviews: https://support.google.com/notebooklm/answer/16212820
+- Generate Slide Decks: https://support.google.com/notebooklm/answer/16757456
 
 Kompletný pracovný zoznam zdrojov je uložený v adresári [`LAB_D_Oficialna_synteza`](materials/LAB_D_Oficialna_synteza/).
 
 ## 📖 Knihy o Google NotebookLM
 
-Nasledujúce tituly sú nezávislé príručky dostupné na Amazone. Nejde o oficiálne publikácie spoločnosti Google. Pred kúpou odporúčame skontrolovať ukážku, dátum vydania, obsah a aktuálnosť voči súčasnej verzii NotebookLM.
+Nasledujúce tituly sú nezávislé príručky dostupné na Amazone. Nejde, ale o oficiálne publikácie spoločnosti Google.
 
 | Kniha | ASIN | Formát | Odkaz |
 |---|---|---|---|
@@ -368,5 +430,3 @@ Nasledujúce tituly sú nezávislé príručky dostupné na Amazone. Nejde o ofi
 | **A Complete Guide to Google Notebook LM** | `B0F6FMMTR3` | Kindle eBook | [Amazon](https://www.amazon.com/Complete-Guide-Google-Notebook-LM-ebook/dp/B0F6FMMTR3) |
 | **NotebookLM Mastery: Welcome to Your Second Brain** | `B0GQQRNPYR` | Kindle eBook | [Amazon](https://www.amazon.com/NotebookLM-Mastery-Welcome-second-Everyday-ebook/dp/B0GQQRNPYR/) |
 | **Mastering Google NotebookLM: Documents and Answers** | `B0GYKKVZF1` | Kindle eBook | [Amazon](https://www.amazon.com/Mastering-Google-NotebookLM-Documents-Answers-ebook/dp/B0GYKKVZF1/) |
-
-> Pri knihách o rýchlo sa meniacich AI nástrojoch dávame prednosť titulom s konkrétnymi pracovnými postupmi, ukážkami promptov a dátumom aktualizácie. Staršie snímky obrazovky alebo názvy funkcií môžu byť neaktuálne.
