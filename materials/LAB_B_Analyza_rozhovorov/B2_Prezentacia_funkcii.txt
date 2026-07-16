@@ -1,0 +1,53 @@
+NÁZOV: Obchodný rozhovor 2 - prezentácia funkcií bez diagnostiky
+PRODUKT: firemné školenie Bezpečná práca s AI
+ÚČASTNÍCI: Tomáš, obchodník; Jana, riaditeľka ľudských zdrojov
+
+Tomáš: Dobrý deň. Naše školenie je najkomplexnejšie na trhu. Obsahuje promptovanie, automatizáciu, obrázky, video, NotebookLM, Gemini, Copilot a viac než sto príkladov.
+
+Jana: My riešime najmä bezpečné používanie a pravidlá pre zamestnancov.
+
+Tomáš: Samozrejme, bezpečnosť tam máme. Máme desať modulov a každý účastník dostane certifikát. Celé to vieme dodať online aj prezenčne.
+
+Jana: Koľko času to zaberie?
+
+Tomáš: Štandardne šesť hodín, ale vieme to skrátiť na tri. Veľa klientov chce celý deň, lebo AI je široká téma.
+
+Jana: My ľudí na celý deň neuvoľníme. Máme 90 minút.
+
+Tomáš: Za 90 minút sa toho veľa nedá naučiť. Mohli by sme im aspoň ukázať dvadsať nástrojov a poslať materiály.
+
+Jana: Nechceme zoznam nástrojov. Máme schválený iba jeden interný nástroj. Potrebujeme pravidlá, čo doň môžu vkladať.
+
+Tomáš: To sa dá. Máme modul GDPR a kybernetická bezpečnosť. Je veľmi obľúbený.
+
+Jana: Používate v cvičeniach reálne firemné údaje?
+
+Tomáš: Najlepšie je, keď nám klient pošle svoje dokumenty. Potom je školenie autentické. Samozrejme, všetko ostáva medzi nami.
+
+Jana: To by muselo schváliť právne oddelenie. Skôr predpokladám anonymizované príklady.
+
+Tomáš: Vieme použiť aj anonymizované. Máme pripravené šablóny. Mimochodom, súčasťou je aj generovanie obrázkov a videí, čo ľudí veľmi baví.
+
+Jana: Naši ľudia to pri práci nepotrebujú.
+
+Tomáš: Možno zatiaľ nie, ale o rok to bude štandard. Je dobré byť pripravený.
+
+Jana: Aká je cena?
+
+Tomáš: Celý balík stojí 12 000 eur. V tom je šesť hodín školenia, záznam, materiály a certifikáty. Pri rýchlom rozhodnutí viem vybaviť desaťpercentnú zľavu.
+
+Jana: My sme vám ešte nepovedali počet ľudí ani rozsah. Navyše nahrávku kvôli interným pravidlám nechceme.
+
+Tomáš: Cena je orientačná. Koľko máte ľudí?
+
+Jana: Asi 200, ale školenie by bolo po skupinách. Najprv chceme pilot.
+
+Tomáš: Pri 200 ľuďoch by som odporučil e-learning. Máme platformu, kde vidíte postup a výsledky. Licencia je navyše.
+
+Jana: Potrebujeme sa poradiť s IT a právnym oddelením.
+
+Tomáš: Pošlem vám prezentáciu so všetkými modulmi. Môžeme si zavolať budúci mesiac?
+
+Jana: Pošlite ju. Potom sa ozveme.
+
+Tomáš: Výborne. V prezentácii nájdete aj referencie a ukážky certifikátov. Ďakujem za čas.
