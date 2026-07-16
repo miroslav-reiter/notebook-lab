@@ -1,0 +1,7 @@
+LAB C - POROVNANIE VERZIÍ
+1. Pridáme C1, C2 a C3.
+2. Najskôr porovnáme iba smernice v1 a v2.
+3. Potom porovnáme zmeny so stavmi v zápisnici.
+4. Oddelíme schválené, zamietnuté a odložené položky.
+5. Vytvoríme oznam iba z platných pravidiel verzie 2.0.
+Výstup: zmenový protokol a oznam zamestnancom.
