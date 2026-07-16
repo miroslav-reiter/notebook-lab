@@ -1,4 +1,4 @@
-# 🧪 Google NotebookLM Praktické cvičenia
+# 🤖 Online Kurz Google NotebookLM Praktické Cvičenia
 
 Praktický repozitár pre online kurz **Google NotebookLM Praktické cvičenia** na mierne pokročilej úrovni. Kurz je určený používateľom, ktorí už vedia vytvoriť notebook, pridať zdroje, používať chat a otvárať citácie. Nezaoberáme sa základným ovládaním. Trénujeme postupy, ktoré pomáhajú získať presnejšie, overiteľné a reálne použiteľné výstupy. V kurze pracujeme najmä s porovnávaním viacerých zdrojov, analýzou prepisov, rozpoznávaním zmien medzi verziami dokumentov, kontrolou citácií a syntézou oficiálnej dokumentácie.
 
