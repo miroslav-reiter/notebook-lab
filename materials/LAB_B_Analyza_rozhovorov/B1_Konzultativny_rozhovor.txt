@@ -1,0 +1,57 @@
+NÁZOV: Obchodný rozhovor 1 - konzultatívny postup
+PRODUKT: firemné školenie Bezpečná práca s AI
+ÚČASTNÍCI: Martin, konzultant; Katarína, HR manažérka výrobnej spoločnosti
+
+Martin: Ďakujem za čas. Aby sme neprechádzali celý katalóg, čo konkrétne vás viedlo k hľadaniu školenia práve teraz?
+
+Katarína: Ľudia už používajú rôzne AI nástroje. Manažment sa bojí úniku údajov a zároveň nechce používanie úplne zakázať.
+
+Martin: Koľkých ľudí sa to týka a ktoré roly používajú AI najviac?
+
+Katarína: Približne 160 ľudí. Najmä administratíva, nákup, marketing a časť technikov. Vo výrobe menej.
+
+Martin: Stal sa už konkrétny incident alebo ide zatiaľ o prevenciu?
+
+Katarína: Nemali sme únik, ale kolega vložil do verejného nástroja časť cenovej ponuky. Zistili sme to náhodou.
+
+Martin: Rozumiem. Potrebujeme teda oddeliť všeobecnú AI gramotnosť od pravidiel pre citlivé údaje. Máte už internú smernicu alebo zoznam povolených nástrojov?
+
+Katarína: Návrh smernice máme, ale nie je schválený. IT povoľuje firemný Copilot. Ľudia však používajú aj bezplatné nástroje.
+
+Martin: Kto okrem HR rozhoduje o obsahu a o nákupe?
+
+Katarína: IT bezpečnosť schvaľuje obsah, právne oddelenie kontroluje smernicu a finančný riaditeľ rozpočet. Ja koordinujem projekt.
+
+Martin: Aký výsledok by po troch mesiacoch znamenal, že školenie fungovalo?
+
+Katarína: Chceme, aby ľudia vedeli rozlíšiť, čo môžu vložiť do nástroja. Tiež chceme znížiť otázky na helpdesk. A potrebujeme doklad o absolvovaní.
+
+Martin: Vieme nastaviť krátky vstupný test, praktické scenáre podľa rolí a záverečný test. Navrhoval by som pilot pre 24 ľudí z nákupu, marketingu a administratívy. Po pilote porovnáme chybovosť v scenároch a upravíme zvyšok programu. Je pre vás pilot prijateľný?
+
+Katarína: Áno, ale nemôžeme ľudí uvoľniť na pol dňa.
+
+Martin: Aký je reálny časový limit?
+
+Katarína: Deväťdesiat minút, maximálne dve hodiny.
+
+Martin: Potom by som navrhol 90-minútový živý workshop, 20-minútový samostatný modul a krátky test. Živá časť by bola praktická. Pre 160 ľudí by sme pripravili viac termínov alebo školenie interných ambasádorov. Ktorý model je pre vás realistickejší?
+
+Katarína: Skôr viac termínov. Interní lektori momentálne nemajú kapacitu.
+
+Martin: Je už stanovený termín?
+
+Katarína: Smernicu chceme spustiť od 1. októbra. Školenie by malo začať v septembri.
+
+Martin: Rozpočet potrebujem poznať aspoň orientačne, aby sme nenavrhovali nereálny rozsah.
+
+Katarína: Na prvú fázu máme približne 8 000 eur. Ak bude potrebná licencia alebo platforma, musíme ju riešiť zvlášť.
+
+Martin: Do tohto rámca sa pilot a štyri až päť skupín pravdepodobne zmestia, ale cenu potvrdíme po schválení rozsahu. Vidím tri otvorené body: finálna smernica, zoznam povolených nástrojov a spôsob merania poklesu otázok na helpdesk. Navrhujem ďalšie 45-minútové stretnutie s IT bezpečnosťou a právnym oddelením. Do piatku vám pošlem jednostranový návrh pilotu a zoznam podkladov. Môžeme predbežne rezervovať utorok o 10.00?
+
+Katarína: Utorky máme poradu. Streda o 14.00 by mohla fungovať.
+
+Martin: Potvrdím stredu o 14.00 a pošlem pozvánku s tromi otázkami na prípravu. Je ešte niečo, čo môže projekt zastaviť?
+
+Katarína: Ak právne oddelenie povie, že nemôžeme používať ani fiktívne príklady z našich procesov.
+
+Martin: To zaradím ako rozhodovací bod. Pripravíme variant so všeobecnými scenármi a variant s anonymizovanými internými situáciami. Na ďalšom stretnutí vyberieme povolený rozsah.
