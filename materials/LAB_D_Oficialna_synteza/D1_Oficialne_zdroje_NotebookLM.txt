@@ -1,0 +1,26 @@
+OFICIÁLNE ZDROJE PRE LAB D - SYNTÉZA FUNKCIÍ A OBMEDZENÍ
+Overené 16. 7. 2026
+
+1. Add or discover new sources for your notebook
+https://support.google.com/notebooklm/answer/16215270?hl=en
+
+2. Create and add notes in NotebookLM
+https://support.google.com/notebooklm/answer/16262519?hl=en
+
+3. Generate Audio Overview in NotebookLM
+https://support.google.com/notebooklm/answer/16212820?hl=en
+
+4. Generate a Slide Deck in NotebookLM
+https://support.google.com/notebooklm/answer/16757456?hl=en
+
+5. NotebookLM adds Deep Research and support for more source types
+https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-deep-research-file-types/
+
+6. Frequently asked questions and limits
+https://support.google.com/notebooklm/answer/16269187?hl=en
+
+7. Aktuálne rozšírenia výskumného chatu, voliteľný zdroj pre diskusiu o rýchlych zmenách produktu
+https://blog.google/innovation-and-ai/products/notebooklm/better-research-notebooklm/
+
+PRAVIDLO
+Do odpovede oddeľujeme stabilné pracovné postupy od funkcií, ktoré môžu závisieť od plánu, regiónu, jazyka alebo priebežného zavádzania.
