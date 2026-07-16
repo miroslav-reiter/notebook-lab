@@ -1,48 +1,320 @@
-# Google NotebookLM Praktické cvičenia
+# 🧪 Google NotebookLM Praktické cvičenia
 
-Praktické podklady pre 90-minútový online kurz na mierne pokročilej úrovni.
+Praktický repozitár pre 90-minútový online kurz **Google NotebookLM Praktické cvičenia** na mierne pokročilej úrovni.
 
-Kurz je určený používateľom, ktorí už NotebookLM používajú a chcú sa zlepšiť v práci s viacerými zdrojmi, porovnávaní tvrdení, kontrole citácií, syntéze odborných materiálov a príprave použiteľných výstupov.
+Kurz je určený používateľom, ktorí už vedia vytvoriť notebook, pridať zdroje, používať chat a otvárať citácie. Nezaoberáme sa základným ovládaním. Trénujeme postupy, ktoré pomáhajú získať presnejšie, overiteľné a reálne použiteľné výstupy.
 
-## Obsah repozitára
+V kurze pracujeme najmä s porovnávaním viacerých zdrojov, analýzou prepisov, rozpoznávaním zmien medzi verziami dokumentov, kontrolou citácií a syntézou oficiálnej dokumentácie.
 
-- [`materials/01_Lektorsky_scenar.md`](materials/01_Lektorsky_scenar.md) - kompletný scenár pre lektora
-- [`materials/02_Pracovny_zosit_ucastnika.md`](materials/02_Pracovny_zosit_ucastnika.md) - pracovný zošit pre účastníkov
-- [`materials/03_Riesenia_a_hodnotenie.md`](materials/03_Riesenia_a_hodnotenie.md) - vzorové riešenia a hodnotiace kritériá
-- [`materials/04_Tahak_prompty.md`](materials/04_Tahak_prompty.md) - praktický ťahák s promptmi
-- [`materials/LAB_A_Porovnanie_navodov/`](materials/LAB_A_Porovnanie_navodov/) - porovnanie odborných návodov a YouTube zdrojov
-- [`materials/LAB_B_Analyza_rozhovorov/`](materials/LAB_B_Analyza_rozhovorov/) - analýza konzultačných a obchodných rozhovorov
-- [`materials/LAB_C_Porovnanie_verzii/`](materials/LAB_C_Porovnanie_verzii/) - porovnanie verzií smernice a schválených zmien
-- [`materials/LAB_D_Oficialna_synteza/`](materials/LAB_D_Oficialna_synteza/) - syntéza oficiálnej dokumentácie NotebookLM
+> NotebookLM nepoužívame iba na sumarizovanie. Používame ho na riadenú analýzu zdrojov, porovnávanie tvrdení a tvorbu výstupov, ktoré vieme spätne overiť.
 
-## Odporúčaný priebeh kurzu
+## 🎯 Čo si v kurze precvičíme
 
-| Čas | Laboratórium | Výstup |
+Po absolvovaní kurzu dokážeme:
+
+- porovnať viacero odborných návodov a nájsť spoločné aj protichodné odporúčania,
+- analyzovať prepisy rozhovorov bez všeobecných a nepodložených hodnotení,
+- oddeliť platné pravidlá od návrhov, diskusných bodov a zastaraných informácií,
+- vytvoriť maticu dôkazov s odkazmi na konkrétne zdroje,
+- odlíšiť fakt, interpretáciu, výpočet a odporúčanie,
+- overiť, či citácia podporuje celé tvrdenie alebo iba jeho časť,
+- pripraviť výstup pre konkrétnu cieľovú skupinu,
+- zostaviť odbornú syntézu z oficiálnej dokumentácie,
+- rozpoznať prípady, keď výsledok pôsobí presvedčivo, ale nie je dostatočne podložený.
+
+## 🧩 Obsah kurzu
+
+Kurz pozostáva zo štyroch samostatných laboratórií.
+
+| Laboratórium | Praktická situácia | Hlavný výstup |
+|---|---|---|
+| LAB A | Porovnanie odborných návodov | konsenzus, rozdiely a optimalizovaný workflow |
+| LAB B | Analýza konzultačných rozhovorov | matica potrieb, námietok a koučovacích odporúčaní |
+| LAB C | Porovnanie verzií smernice | zmenový protokol a oddelenie návrhov od platných pravidiel |
+| LAB D | Syntéza oficiálnej dokumentácie | matica funkcií, obmedzení a odporúčaných postupov |
+
+### LAB A: Porovnanie odborných návodov
+
+Pracujeme s tromi rozdielnymi návodmi na používanie NotebookLM. Každý autor zdôrazňuje inú pracovnú filozofiu.
+
+Úlohou nie je vytvoriť tri samostatné zhrnutia. Hľadáme:
+
+- odporúčania, na ktorých sa autori zhodujú,
+- odporúčania, v ktorých si odporujú,
+- unikátne tipy jednotlivých autorov,
+- slabé alebo neoverené tvrdenia,
+- kroky vhodné na zostavenie jedného lepšieho workflow.
+
+Výstupom je porovnávacia matica a vlastný optimalizovaný pracovný postup.
+
+### LAB B: Analýza rozhovorov
+
+Pracujeme s tromi modelovými obchodnými a konzultačnými rozhovormi.
+
+Rozhovory sú zámerne rozdielne:
+
+- kvalitná diagnostika potrieb,
+- prezentovanie funkcií bez pochopenia problému,
+- dobrá analýza bez jasne dohodnutého ďalšieho kroku.
+
+Výstupom je:
+
+- zoznam potrieb zákazníka,
+- register námietok,
+- hodnotenie reakcií obchodníka,
+- dôkazy z konkrétnych pasáží,
+- praktický koučovací plán.
+
+### LAB C: Porovnanie verzií
+
+Pracujeme s dvoma verziami internej smernice a so zápisnicou zo schvaľovania zmien.
+
+Trénujeme rozdiel medzi týmito kategóriami:
+
+- pravidlo platné v pôvodnej verzii,
+- pravidlo platné v novej verzii,
+- schválená zmena,
+- zamietnutý návrh,
+- odložené rozhodnutie,
+- nejasná alebo konfliktná informácia.
+
+Výstupom je zmenový protokol, ktorý neprezentuje diskutovaný návrh ako platné pravidlo.
+
+### LAB D: Odborná syntéza
+
+Pracujeme s oficiálnou dokumentáciou NotebookLM.
+
+Nehľadáme všeobecný opis produktu. Z dokumentácie extrahujeme:
+
+- pracovné situácie,
+- odporúčané funkcie,
+- presný postup,
+- dôležité obmedzenia,
+- podmienky účtu alebo dostupnosti,
+- riziká nesprávneho použitia.
+
+Výstupom je prevádzkový návod pre mierne pokročilého používateľa.
+
+## ⏱️ Odporúčaný priebeh 90-minútového kurzu
+
+| Čas | Aktivita | Výstup |
 |---:|---|---|
-| 0-20 min | Porovnanie návodov | konsenzus, rozdiely a optimalizovaný workflow |
-| 20-40 min | Analýza rozhovorov | matica potrieb, námietok a koučovacích odporúčaní |
-| 40-60 min | Porovnanie verzií | zmenový protokol a oddelenie návrhov od platných pravidiel |
-| 60-85 min | Odborná syntéza | porovnávacia matica a overené odporúčania |
-| 85-90 min | Audit citácií | kontrola podpory kľúčových tvrdení |
+| 0-5 min | Zadanie, pravidlá práce so zdrojmi | pripravené notebooky a zdroje |
+| 5-25 min | LAB A: porovnanie návodov | porovnávacia matica |
+| 25-45 min | LAB B: analýza rozhovorov | matica potrieb a koučovací plán |
+| 45-65 min | LAB C: porovnanie verzií | zmenový protokol |
+| 65-85 min | LAB D: odborná syntéza | matica funkcií a obmedzení |
+| 85-90 min | Audit citácií | kontrola troch rozhodujúcich tvrdení |
 
-## Ako podklady použiť
+## 🗂️ Štruktúra repozitára
 
-1. Pre každé laboratórium vytvorte samostatný notebook alebo použite jeden notebook so samostatnými zostavami zdrojov.
-2. Nahrajte alebo vložte iba zdroje určené pre dané laboratórium.
-3. Zadajte prompt z pracovného zošita.
-4. Výstup porovnajte so vzorovým riešením.
-5. Manuálne otvorte a overte citácie pri rozhodujúcich tvrdeniach.
+```text
+notebook-lab/
+├── README.md
+└── materials/
+    ├── 01_Lektorsky_scenar.md
+    ├── 02_Pracovny_zosit_ucastnika.md
+    ├── 03_Riesenia_a_hodnotenie.md
+    ├── 04_Tahak_prompty.md
+    ├── LAB_A_Porovnanie_navodov/
+    │   ├── A1_... až A3_...      # offline prepisy odborných návodov
+    │   ├── A4_...                # zadanie a kontrolné kritériá
+    │   └── A5_...                # verejné YouTube zdroje
+    ├── LAB_B_Analyza_rozhovorov/
+    │   ├── B1_... až B3_...      # modelové rozhovory
+    │   └── B4_...                # zadanie a kontrolné kritériá
+    ├── LAB_C_Porovnanie_verzii/
+    │   ├── C1_...                # smernica, verzia 1
+    │   ├── C2_...                # smernica, verzia 2
+    │   ├── C3_...                # zápisnica zo schvaľovania
+    │   └── C4_...                # zadanie a kontrolné kritériá
+    └── LAB_D_Oficialna_synteza/
+        ├── D1_...                # zoznam oficiálnych zdrojov
+        └── D2_...                # zadanie a kontrolné kritériá
+```
 
-## Požiadavky
+Hlavné materiály:
 
-- účet Google s prístupom k NotebookLM,
-- webový prehliadač na počítači,
-- základná skúsenosť s pridávaním zdrojov, chatom a citáciami v NotebookLM.
+- [`01_Lektorsky_scenar.md`](materials/01_Lektorsky_scenar.md) - presný postup, časovanie a inštrukcie pre lektora,
+- [`02_Pracovny_zosit_ucastnika.md`](materials/02_Pracovny_zosit_ucastnika.md) - zadania, prompty a priestor na výsledky,
+- [`03_Riesenia_a_hodnotenie.md`](materials/03_Riesenia_a_hodnotenie.md) - vzorové riešenia a hodnotiace kritériá,
+- [`04_Tahak_prompty.md`](materials/04_Tahak_prompty.md) - opakovateľné promptové vzory.
 
-## Charakter podkladov
+## 🚀 Rýchly štart
 
-Cvičné rozhovory, smernice a zápisnice sú vytvorené ako vzdelávacie modelové dáta. Verejné odkazy a oficiálne zdroje treba pred kurzom skontrolovať, pretože funkcie NotebookLM sa priebežne menia.
+Repozitár si môžeme naklonovať:
 
-Dokumenty sú v repozitári uložené v GitHub-native formáte Markdown alebo TXT, aby sa dali priamo čítať, upravovať a verzovať.
+```bash
+git clone https://github.com/miroslav-reiter/notebook-lab.git
+cd notebook-lab
+```
 
-Autor: Miroslav Reiter
+Pre každé laboratórium odporúčame vytvoriť samostatný notebook. Pri kratšom školení môžeme použiť jeden notebook, ale vždy necháme aktívne iba zdroje potrebné pre konkrétne cvičenie.
+
+Základný postup:
+
+1. Otvoríme príslušný adresár laboratória.
+2. Pridáme zdrojové súbory do NotebookLM.
+3. Otvoríme zadanie v pracovnom zošite.
+4. Spustíme prvý analytický prompt.
+5. Výstup porovnáme so vzorovým riešením.
+6. Manuálne otvoríme citácie pri rozhodujúcich tvrdeniach.
+7. Zapíšeme chyby, nejasnosti a nepodložené závery.
+
+## 🧠 Praktický analytický workflow
+
+Pri každom laboratóriu používame rovnakú logiku:
+
+```text
+výber zdrojov
+    ↓
+extrakcia faktov
+    ↓
+porovnanie a hľadanie rozporov
+    ↓
+interpretácia
+    ↓
+odporúčanie alebo cieľový výstup
+    ↓
+audit citácií
+```
+
+Nevytvárame finálne odporúčanie hneď v prvom prompte. Najskôr získame fakty a dôkazy, až potom vytvárame interpretáciu.
+
+### Prompt na porovnanie zdrojov
+
+```text
+Porovnaj všetky vybrané zdroje.
+
+Vytvor tabuľku so stĺpcami:
+- téma,
+- spoločné tvrdenie,
+- odlišné alebo protichodné tvrdenie,
+- zdroj,
+- dôkaz,
+- miera istoty.
+
+Rozpory nezlučuj vlastným odhadom. Ak sa zdroje nezhodujú, zachovaj obe verzie.
+```
+
+### Prompt na oddelenie faktov od interpretácií
+
+```text
+Rozdeľ zistenia do štyroch kategórií:
+- fakt priamo uvedený v zdroji,
+- výpočet odvodený zo zdrojových údajov,
+- interpretácia,
+- odporúčanie.
+
+Pri každom bode uveď zdroj alebo vysvetli, že ide o vlastnú interpretáciu.
+```
+
+### Prompt na audit citácií
+
+```text
+Vyber päť najdôležitejších tvrdení z odpovede.
+
+Pri každom tvrdení uveď:
+- citovaný zdroj,
+- presnú podporu v zdroji,
+- či ide o priamu alebo nepriamu podporu,
+- či citácia podporuje celé tvrdenie,
+- možné riziko nesprávneho výkladu.
+```
+
+Ďalšie promptové vzory sú v súbore [`04_Tahak_prompty.md`](materials/04_Tahak_prompty.md).
+
+## ✅ Kritériá kvalitného výstupu
+
+Výstup považujeme za kvalitný, keď:
+
+- odpovedá na konkrétnu otázku,
+- používa iba relevantné zdroje,
+- oddeľuje fakty od interpretácií,
+- zachováva konfliktné tvrdenia namiesto ich umelého zjednotenia,
+- obsahuje citácie pri rozhodujúcich údajoch,
+- citácia podporuje celé tvrdenie,
+- nevymýšľa chýbajúce dátumy, čísla alebo rozhodnutia,
+- označuje neistotu a chýbajúce informácie,
+- používa terminológiu vhodnú pre cieľovú skupinu,
+- vedie ku konkrétnemu a kontrolovateľnému výsledku.
+
+### Hodnotenie laboratória
+
+| Oblasť | Body |
+|---|---:|
+| Správny výber zdrojov | 2 |
+| Zachytenie hlavných faktov | 2 |
+| Rozpoznanie rozporov alebo zmien | 2 |
+| Správne použitie citácií | 2 |
+| Použiteľnosť výsledného výstupu | 2 |
+| **Spolu** | **10** |
+
+Podrobné riešenia a hodnotiaca rubrika sú v súbore [`03_Riesenia_a_hodnotenie.md`](materials/03_Riesenia_a_hodnotenie.md).
+
+## ⚠️ Časté chyby
+
+### Zapnutie všetkých zdrojov bez dôvodu
+
+Viac zdrojov neznamená automaticky lepšiu odpoveď. Pri konkrétnej úlohe nechávame aktívne iba relevantné dokumenty.
+
+### Jeden veľký prompt na celý problém
+
+Prompt typu „analyzuj všetko a navrhni riešenie“ často zmieša fakty, interpretácie a odporúčania. Používame viac krokov.
+
+### Citácia ako automatický dôkaz správnosti
+
+Citácia dokazuje, že sa tvrdenie nachádza v zdroji. Nedokazuje, že zdroj je aktuálny, správny alebo záväzný.
+
+### Zlúčenie konfliktných verzií
+
+Pri porovnávaní dokumentov môže vzniknúť jedna hladká, ale nepresná verzia. V prompte výslovne požadujeme zachovanie rozporov.
+
+### Zamieňanie návrhu za rozhodnutie
+
+Zápisnica môže obsahovať diskutovaný, zamietnutý aj schválený návrh. Nestačí nájsť vetu. Musíme overiť jej stav.
+
+### Hodnotenie bez dôkazu
+
+Pri analýze rozhovorov nepoužívame všeobecné závery typu „obchodník komunikoval zle“. Vyžadujeme konkrétnu pasáž a vysvetlenie jej dôsledku.
+
+## 🔒 Bezpečnosť a ochrana údajov
+
+Cvičné rozhovory, smernice a zápisnice v tomto repozitári sú modelové vzdelávacie dáta.
+
+Pri práci s vlastnými materiálmi dodržiavame tieto pravidlá:
+
+- nevkladáme heslá, API kľúče, prístupové tokeny ani prihlasovacie údaje,
+- anonymizujeme mená, e-mailové adresy, telefónne čísla a identifikátory zákazníkov,
+- nepoužívame reálne obchodné rozhovory bez oprávnenia,
+- kontrolujeme interné pravidlá organizácie pre používanie AI nástrojov,
+- pri citlivých dokumentoch overujeme, kto má k notebooku a výstupom prístup,
+- pred zdieľaním manuálne skontrolujeme citácie aj obsah výsledného dokumentu.
+
+## 📚 Oficiálne zdroje
+
+Funkcie NotebookLM sa priebežne menia. Pred školením preto kontrolujeme aktuálnu dokumentáciu.
+
+- NotebookLM Help: https://support.google.com/notebooklm/
+- Add or discover new sources: https://support.google.com/notebooklm/answer/16215270
+- Use chat in NotebookLM: https://support.google.com/notebooklm/answer/16179559
+- Create and manage notes: https://support.google.com/notebooklm/answer/16262519
+- Generate Audio Overviews: https://support.google.com/notebooklm/answer/16212820
+- Generate Slide Decks: https://support.google.com/notebooklm/answer/16757456
+
+Kompletný pracovný zoznam zdrojov je uložený v adresári [`LAB_D_Oficialna_synteza`](materials/LAB_D_Oficialna_synteza/).
+
+## 🧭 Odporúčané poradie práce
+
+1. Prejdeme lektorský scenár.
+2. Pripravíme štyri notebooky alebo štyri zdrojové zostavy.
+3. Začneme porovnaním odborných návodov.
+4. Pokračujeme analýzou rozhovorov.
+5. Precvičíme porovnanie verzií a stav rozhodnutí.
+6. Záver venujeme syntéze oficiálnej dokumentácie.
+7. Každý výsledok ukončíme auditom citácií.
+
+## Autor
+
+**Miroslav Reiter**  
+GitHub: https://github.com/miroslav-reiter
