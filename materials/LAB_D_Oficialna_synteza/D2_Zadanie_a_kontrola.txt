@@ -1,0 +1,30 @@
+LAB D - ZADANIE A KONTROLA
+
+CIEĽ
+Z oficiálnych zdrojov vytvoríme prevádzkový návod pre mierne pokročilého používateľa. Neopisujeme celé rozhranie. Hľadáme funkcie, obmedzenia a rozhodovacie pravidlá.
+
+KROK 1
+Pridáme minimálne zdroje 1 až 6 z D1 ako webové URL.
+
+KROK 2 - PROMPT
+Vytvor maticu funkcií NotebookLM so stĺpcami:
+- pracovná situácia,
+- odporúčaná funkcia,
+- presný postup,
+- dôležité obmedzenie,
+- podmienka účtu alebo prístupu,
+- zdroj.
+Zameraj sa na výber zdrojov, synchronizáciu Google Drive, poznámky, Audio Overview, Slide Deck a Deep Research. Neuvádzaj marketingové hodnotenia.
+
+KROK 3 - PROMPT
+Nájdi minimálne päť prípadov, keď používateľ môže dospieť k nesprávnemu výsledku aj napriek tomu, že NotebookLM funguje podľa dokumentácie. Ku každému uveď prevenciu.
+
+KROK 4 - PROMPT
+Vytvor kontrolný zoznam pred odovzdaním výstupu klientovi. Rozdeľ ho na zdroje, citácie, aktuálnosť, Studio výstupy a zdieľanie.
+
+KONTROLA
+- Každé obmedzenie má citáciu.
+- Rozlišujeme automatickú synchronizáciu zdrojov Google Drive a statické uploady.
+- Pri prezentáciách zachytíme, že revízia nemusí zohľadniť zdroje.
+- Pri Audio Overview zachytíme, že výstup môže obsahovať nepresnosti a generuje sa na pozadí.
+- Pri poznámkach zachytíme konverziu na zdroj a nesynchronizovanie exportovaného dokumentu späť do NotebookLM.
