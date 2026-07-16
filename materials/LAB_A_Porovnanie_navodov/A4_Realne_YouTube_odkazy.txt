@@ -1,0 +1,17 @@
+VEREJNÉ YOUTUBE ODKAZY PRE REAL-WORLD VARIANT LAB A
+Overené 16. 7. 2026. Dostupnosť a obsah sa môžu zmeniť.
+
+1. NotebookLM Masterclass: Every Feature Explained (Beginners to Advanced)
+https://www.youtube.com/watch?v=fGGMbc5M7oQ
+
+2. Master NotebookLM for Researchers | Full Tutorial 2026
+https://www.youtube.com/watch?v=B7sYOUse-DQ
+
+3. How to use NotebookLM for citations and bibliography
+https://www.youtube.com/watch?v=6gPtGNf5o48
+
+POSTUP
+- Pridáme všetky tri verejné YouTube URL ako zdroje.
+- Skontrolujeme, či NotebookLM načítal prepis.
+- Ak video nemá použiteľný prepis, nahradíme ho offline súborom A1, A2 alebo A3.
+- Výstup nehodnotíme podľa popularity autora, ale podľa konkrétnosti, dôkazov a použiteľnosti postupu.
