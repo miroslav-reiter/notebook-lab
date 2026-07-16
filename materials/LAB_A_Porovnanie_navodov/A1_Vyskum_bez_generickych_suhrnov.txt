@@ -1,0 +1,17 @@
+NÁZOV: Výskumný workflow bez generických súhrnov
+FORMÁT: simulovaný prepis odborného videa
+AUTORKA: Eva, výskumníčka používateľskej skúsenosti
+
+Keď otvorím NotebookLM, nezačínam otázkou „zhrň mi to“. Najskôr si formulujem rozhodnutie, ktoré potrebujem urobiť. Napríklad: ktoré tri zistenia sa opakujú v rozhovoroch so zákazníkmi a ktoré zistenie je iba ojedinelé. Podľa toho vyberám zdroje. Ak analyzujem rozhovory, do prvého kola nedávam prezentáciu marketingu ani produktový plán. Tie by modelu podsúvali firemné interpretácie.
+
+Prvý krok je extrakcia. Pýtam sa na tvrdenia, dôkazy, účastníka a presné miesto v zdroji. Výstup chcem v tabuľke. Pri každom tvrdení musí byť uvedené, či ho podporuje jeden zdroj alebo viac zdrojov. Druhý krok je porovnanie. Až vtedy sa pýtam na vzory, rozpory a výnimky. Tretí krok je interpretácia, ale každú interpretáciu označím ako interpretáciu. Toto delenie je dôležité, lebo model môže veľmi hladko spojiť dve slabé indície a tváriť sa, že ide o fakt.
+
+Citácie nekontrolujem náhodne. Vyberiem tri typy tvrdení: číslo, silné hodnotenie a tvrdenie spájajúce viac zdrojov. Pri čísle kontrolujem, či citácia obsahuje správny menovateľ a obdobie. Pri hodnotení kontrolujem, či zdroj naozaj používa takú silnú formuláciu. Pri syntéze kontrolujem všetky citácie, pretože jedna citácia často podporuje iba polovicu vety.
+
+Ak mám desať článkov, nepoužívam automaticky všetky. Najskôr ich rozdelím na primárne, sekundárne a kontextové. Primárne zdroje majú pri rozhodovaní vyššiu váhu. V prompte to píšem priamo: pri konflikte uprednostni primárny výskum pred komentárom. Model nevie sám, že interný blog je menej autoritatívny než výsledky experimentu.
+
+Studio výstupy generujem až po analytickej práci. Audio Overview je výborné na opakovanie, ale nie je to moja prvá analýza. Najskôr vytvorím overenú poznámku s hlavnými zisteniami. Až túto poznámku konvertujem na zdroj a z nej vytvorím briefing alebo audio. Tým znižujem riziko, že sa do výstupu dostane vedľajšia téma z pôvodných dokumentov.
+
+Dôležitý trik je pýtať sa aj na neprítomnosť dôkazov: ktoré odporúčanie nemá v zdrojoch oporu, ktoré tvrdenie sa opakuje iba preto, že články citujú ten istý pôvodný zdroj, a čo by sme potrebovali zistiť pred rozhodnutím. NotebookLM je na toto užitočný, ak otázku položíme presne. Bez tejto otázky nám vytvorí uhladený, ale často príliš sebavedomý súhrn.
+
+Môj pracovný postup je teda: rozhodovacia otázka, výber zdrojov, extrakcia, porovnanie, audit citácií, poznámka s overenými zisteniami a až potom Studio výstup. Pri každom kroku viem povedať, čo je vstup a čo je kontrolovateľný výsledok.
