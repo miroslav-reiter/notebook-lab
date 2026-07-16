@@ -1,0 +1,17 @@
+NÁZOV: NotebookLM ako pracovný priestor pre rozhodnutia
+FORMÁT: simulovaný prepis odborného videa
+AUTORKA: Zuzana, projektová manažérka
+
+V projektovom riadení ma nezaujíma, či NotebookLM vytvorí pekný súhrn. Potrebujem vedieť, čo bolo rozhodnuté, čo je iba návrh, kto má úlohu a čo sa zmenilo od poslednej porady. Preto zdroje pomenúvam dátumom a typom: zápisnica, rozhodnutie, návrh, smernica alebo pracovná verzia.
+
+Najčastejšia chyba je, že do jedného notebooku vložíme návrh aj schválené rozhodnutie a potom sa pýtame na stav projektu. Model môže citovať oba dokumenty bez toho, aby poznal ich právnu alebo organizačnú váhu. V prompte preto definujem hierarchiu: schválené rozhodnutie má prednosť pred návrhom, aktuálna smernica pred starou smernicou a zápisnica pred neformálnou poznámkou.
+
+Používam tri registre. Register rozhodnutí obsahuje dátum, rozhodnutie, vlastníka a zdroj. Register otvorených otázok obsahuje chýbajúci údaj a osobu, ktorá ho má doplniť. Register rozporov obsahuje dve konfliktné tvrdenia a zdroje. NotebookLM mi tieto registre vytvorí, ale prvých päť položiek manuálne overím.
+
+Poznámky nepoužívam iba na odkladanie odpovedí. Vytvorím ručnú poznámku s rozhodnutiami, ktoré vedenie potvrdilo. Túto poznámku konvertujem na zdroj a pri príprave status reportu vyberiem iba tento konsolidovaný zdroj spolu s aktuálnym rozpočtom. Pôvodné zápisnice ponechám v notebooku ako dôkaz, ale nezapínam ich pri každom výstupe.
+
+Keď sa zmení Google dokument, synchronizujem ho pred analýzou. Ak pracujem s nahratým súborom, kontrolujem dátum v názve. Stará verzia dokumentu je užitočná na porovnanie, ale nebezpečná pri otázke na aktuálny stav.
+
+Studio používam na komunikáciu. The Brief je vhodný pre krátky status, Critique na kontrolu návrhu a Debate na zobrazenie dvoch možností. Pri prezentácii si ukladám pôvodný prompt. Ak sa zmenili fakty alebo zdroje, prezentáciu generujem nanovo. Revíziu používam iba na text a vizuál, pretože pri revízii sa zdroje nemusia znova zohľadniť.
+
+Môj postup je: označiť typ a dátum zdroja, určiť hierarchiu, vytvoriť registre, overiť kritické tvrdenia, konsolidovať schválené rozhodnutia a z konsolidovaného stavu generovať komunikáciu. Takto NotebookLM používam ako pracovný priestor, nie ako generátor pekných viet.
