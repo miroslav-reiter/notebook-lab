@@ -1,10 +1,141 @@
 # 🧪 Google NotebookLM Praktické cvičenia
 
-Praktický repozitár pre online kurz **Google NotebookLM Praktické cvičenia** na mierne pokročilej úrovni.Kurz je určený používateľom, ktorí už vedia vytvoriť notebook, pridať zdroje, používať chat a otvárať citácie. Nezaoberáme sa základným ovládaním. Trénujeme postupy, ktoré pomáhajú získať presnejšie, overiteľné a reálne použiteľné výstupy. V kurze pracujeme najmä s porovnávaním viacerých zdrojov, analýzou prepisov, rozpoznávaním zmien medzi verziami dokumentov, kontrolou citácií a syntézou oficiálnej dokumentácie.
+Praktický repozitár pre online kurz **Google NotebookLM Praktické cvičenia** na mierne pokročilej úrovni. Kurz je určený používateľom, ktorí už vedia vytvoriť notebook, pridať zdroje, používať chat a otvárať citácie. Nezaoberáme sa základným ovládaním. Trénujeme postupy, ktoré pomáhajú získať presnejšie, overiteľné a reálne použiteľné výstupy. V kurze pracujeme najmä s porovnávaním viacerých zdrojov, analýzou prepisov, rozpoznávaním zmien medzi verziami dokumentov, kontrolou citácií a syntézou oficiálnej dokumentácie.
 
 > NotebookLM nepoužívame iba na sumarizovanie. Používame ho na riadenú analýzu zdrojov, porovnávanie tvrdení a tvorbu výstupov, ktoré vieme spätne overiť.
 
-## 🎯 Čo si v kurze precvičíme
+## 📌 Čo je Google NotebookLM
+
+Google NotebookLM je nástroj na prácu s vlastnými zdrojmi. Do notebooku pridáme dokumenty, webové stránky, prepisy videí, zvukové súbory alebo ďalšie podporované materiály a následne nad nimi kladieme otázky, porovnávame tvrdenia a vytvárame výstupy.
+
+Hlavný rozdiel oproti bežnému chatbotu je v tom, že odpovede môžeme viazať na konkrétny súbor zdrojov. NotebookLM pri odpovediach uvádza citácie, cez ktoré vieme prejsť na príslušnú pasáž v zdroji.
+
+NotebookLM však automaticky nerozhoduje:
+
+- ktorý dokument je najaktuálnejší,
+- ktorý zdroj je záväzný,
+- či citácia podporuje celé tvrdenie,
+- či je zdroj odborne správny,
+- či sa návrh v zápisnici stal schváleným rozhodnutím.
+
+Preto v tomto kurze trénujeme nielen generovanie odpovedí, ale najmä výber zdrojov, kontrolu dôkazov a audit výsledkov.
+
+## 📌 Základná syntax
+
+NotebookLM nemá programovací jazyk ani príkazovú syntax. Pri praktickej práci však používame opakovateľnú skladbu zadania:
+
+```text
+ZDROJE + ÚLOHA + PRAVIDLÁ + FORMÁT VÝSTUPU + KONTROLA
+```
+
+Univerzálna šablóna:
+
+```text
+Na základe vybraných zdrojov vykonaj túto úlohu:
+[čo má NotebookLM zistiť alebo vytvoriť]
+
+Dodrž tieto pravidlá:
+- používaj iba informácie zo zdrojov,
+- oddeľ fakty od interpretácií,
+- rozpory nezlučuj vlastným odhadom,
+- chýbajúce informácie označ ako nepotvrdené,
+- pri dôležitých tvrdeniach uveď citáciu.
+
+Výstup vytvor vo formáte:
+[tabuľka, zoznam, chronológia, matica, briefing, checklist]
+
+Na konci skontroluj:
+- ktoré tvrdenia sú priamo podložené,
+- ktoré sú odvodené,
+- ktoré zostávajú neisté.
+```
+
+Praktické pravidlo: kvalitný prompt neurčuje iba tému. Určuje aj zdroje, analytickú úlohu, hranice interpretácie, štruktúru výsledku a spôsob kontroly.
+
+## 🎯 Na čo sa Google NotebookLM používa v praxi
+
+NotebookLM môžeme použiť napríklad na:
+
+- porovnávanie viacerých odborných článkov alebo návodov,
+- hľadanie konsenzu a protichodných odporúčaní,
+- analýzu prepisov obchodných, výskumných alebo používateľských rozhovorov,
+- vytváranie chronológie udalostí z viacerých dokumentov,
+- porovnávanie starej a novej verzie smernice, zmluvy alebo metodiky,
+- rozlíšenie schválených rozhodnutí od návrhov a diskusných bodov,
+- vytvorenie registra požiadaviek, rizík, námietok alebo otvorených otázok,
+- syntézu oficiálnej dokumentácie do praktického pracovného postupu,
+- prípravu briefingu pre vedenie, checklistu pre realizátora alebo podkladov pre školenie,
+- audit tvrdení a kontrolu, či citácie podporujú celý záver.
+
+NotebookLM je najužitočnejší vtedy, keď máme viacero zdrojov a potrebujeme z nich vytvoriť kontrolovateľný výstup. Menej užitočný je pri otázkach, na ktoré sme neposkytli relevantné alebo dostatočne kvalitné zdroje.
+
+## 🧾 Praktické príklady promptov
+
+### Porovnanie viacerých zdrojov
+
+```text
+Porovnaj všetky vybrané zdroje.
+
+Vytvor tabuľku so stĺpcami:
+- téma,
+- spoločné tvrdenie,
+- odlišné alebo protichodné tvrdenie,
+- zdroj,
+- dôkaz,
+- miera istoty.
+
+Rozpory nezlučuj vlastným odhadom. Ak sa zdroje nezhodujú, zachovaj obe verzie.
+```
+
+### Porovnanie dvoch verzií dokumentu
+
+```text
+Porovnaj starú a novú verziu dokumentu.
+
+Každú zmenu zaraď do jednej kategórie:
+- pridané,
+- odstránené,
+- upravené,
+- nezmenené,
+- nejasné.
+
+Pri každej zmene uveď pôvodné znenie, nové znenie, praktický dôsledok a citáciu z oboch verzií.
+```
+
+### Analýza rozhovorov
+
+```text
+Analyzuj vybrané prepisy rozhovorov.
+
+Vytvor maticu:
+- potreba alebo problém zákazníka,
+- presný dôkaz z rozhovoru,
+- otázka obchodníka,
+- reakcia obchodníka,
+- výsledok reakcie,
+- lepšia alternatíva.
+
+Nepoužívaj všeobecné hodnotenia bez konkrétnej pasáže z prepisu.
+```
+
+### Audit citácií
+
+```text
+Vyber päť najdôležitejších tvrdení z odpovede.
+
+Pri každom tvrdení uveď:
+- citovaný zdroj,
+- presnú podporu v zdroji,
+- či ide o priamu alebo nepriamu podporu,
+- či citácia podporuje celé tvrdenie,
+- možné riziko nesprávneho výkladu.
+
+Ak citácia podporuje iba časť tvrdenia, označ tvrdenie ako čiastočne podložené.
+```
+
+Ďalšie promptové vzory sú v súbore [`04_Tahak_prompty.md`](materials/04_Tahak_prompty.md).
+
+## ✅ Čo si v kurze precvičíme
 
 Po absolvovaní kurzu dokážeme:
 
