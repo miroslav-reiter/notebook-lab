@@ -1,0 +1,17 @@
+NÁZOV: Ako z jedného korpusu rýchlo vytvoriť viac výstupov
+FORMÁT: simulovaný prepis odborného videa
+AUTOR: Peter, tvorca odborného obsahu
+
+NotebookLM používam najmä na to, aby som z rovnakých podkladov vytvoril viac formátov. Do notebooku vložím webové články, staršie prezentácie, poznámky z workshopu a videá. Čím viac materiálu mám na jednom mieste, tým viac nápadov dokáže systém prepojiť. Nemám rád príliš úzke výbery zdrojov, lebo môžu odstrániť zaujímavý kontext.
+
+Začínam Audio Overview. Pustím si ho pri inej práci a všímam si témy, ktoré sa v rozhovore hostiteľov opakujú. Potom sa vrátim do chatu a pýtam si osnovu článku alebo prezentácie. Audio mi teda slúži aj ako rýchly filter tém. Pri dlhších podkladoch mi to šetrí čas, pretože nemusím najskôr čítať každý dokument.
+
+Môj obľúbený prompt pre prezentáciu obsahuje publikum, počet snímok a jednu vetu o štýle. Napríklad: vytvor sedem prezentačných snímok pre manažérov, každá má mať jeden hlavný odkaz a maximálne tri body. Z rovnakých zdrojov potom vytvorím podrobný článok pre ľudí, ktorí chcú viac detailov. Nejde len o zmenu tónu. Pre manažéra vyberiem rozhodnutia a riziká, pre odborníka metódy a obmedzenia, pre verejnosť príklady.
+
+Citácie považujem za veľkú výhodu NotebookLM. Pri bežnom obsahu ich však neotváram všetky. Kontrolujem čísla, názvy a veci, ktoré by mohli poškodiť dôveryhodnosť. Pri jednoduchom vysvetlení témy mi stačí, že odpoveď ukazuje zdroje. Keby som kontroloval každú vetu, stratil by som čas, ktorý som chcel ušetriť.
+
+Prompty si ukladám do samostatnej poznámky. Najlepšie fungujú šablóny. Mením publikum, účel a rozsah, zvyšok zostáva rovnaký. Pri Audio Overview si po vygenerovaní zobrazím vlastný prompt a skopírujem ho do knižnice. Tak viem neskôr zopakovať podobný výstup.
+
+Pri zdrojoch používam názvy, ktoré opisujú obsah. Nepoužívam názvy ako dokument_final2. Ak mám starú a novú verziu, nechávam obe, pretože model môže porovnať zmeny. V otázke však musím uviesť, ktorá verzia je aktuálna. Ak to neurobím, môže použiť starší údaj.
+
+Môj workflow je rýchly: široký zber zdrojov, Audio Overview, osnova, prvý výstup, kontrola rizikových tvrdení a adaptácia pre ďalšie publikum. Nie je vhodný pre právnu analýzu, ale pri tvorbe vzdelávacieho a marketingového obsahu funguje dobre.
