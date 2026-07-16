@@ -1,0 +1,7 @@
+LAB B - ANALÝZA ROZHOVOROV
+1. Pridáme B1, B2 a B3.
+2. Extrahujeme rovnaké polia z každého prepisu.
+3. Ohodnotíme diagnostiku, námietky, návrh a uzavretie.
+4. Každé hodnotenie podložíme udalosťou z prepisu.
+5. Prenesieme tri konkrétne postupy z B1 do B2 a B3.
+Výstup: matica námietok a koučovací plán.
