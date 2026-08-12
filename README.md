@@ -20,7 +20,7 @@ Gemini Notebook však automaticky nerozhoduje:
 
 Preto v tomto kurze trénujeme nielen generovanie odpovedí, ale najmä výber zdrojov, kontrolu dôkazov a audit výsledkov.
 
-## 📌 Základná syntax
+## 📌 Základná syntax pre Gemini Notebook
 
 Gemini Notebook nemá programovací jazyk ani príkazovú syntax. Pri praktickej práci však používame opakovateľnú skladbu zadania:
 
@@ -52,7 +52,7 @@ Na konci skontroluj:
 
 Praktické pravidlo: kvalitný prompt neurčuje iba tému. Určuje aj zdroje, analytickú úlohu, hranice interpretácie, štruktúru výsledku a spôsob kontroly.
 
-## 🎯 Na čo sa Google NotebookLM používa v praxi
+## 🎯 Na čo sa Gemini Notebook používa v praxi
 
 NotebookLM môžeme použiť napríklad na:
 
@@ -69,7 +69,7 @@ NotebookLM môžeme použiť napríklad na:
    
 Gemini Notebook je najužitočnejší vtedy, keď máme viacero zdrojov a potrebujeme z nich vytvoriť kontrolovateľný výstup. Menej užitočný je pri otázkach, na ktoré sme neposkytli relevantné alebo dostatočne kvalitné zdroje.
 
-## 🧾 Praktické príklady promptov
+## 🧾 Praktické príklady promptov pre Gemini Notebook (NotebookLM)
 
 ### Porovnanie viacerých zdrojov
 
@@ -277,7 +277,7 @@ Základný postup:
 6. Manuálne otvoríme citácie pri rozhodujúcich tvrdeniach.
 7. Zapíšeme chyby, nejasnosti a nepodložené závery.
 
-## 🧠 Praktický analytický workflow
+## 🧠 Praktický analytický workflow Gemini Notebook (NotebookLM)
 
 Pri každom laboratóriu používame rovnakú logiku:
 
@@ -344,16 +344,16 @@ Pri každom tvrdení uveď:
 
 Výstup považujeme za kvalitný, keď:
 
-- odpovedá na konkrétnu otázku,
-- používa iba relevantné zdroje,
-- oddeľuje fakty od interpretácií,
-- zachováva konfliktné tvrdenia namiesto ich umelého zjednotenia,
-- obsahuje citácie pri rozhodujúcich údajoch,
-- citácia podporuje celé tvrdenie,
-- nevymýšľa chýbajúce dátumy, čísla alebo rozhodnutia,
-- označuje neistotu a chýbajúce informácie,
-- používa terminológiu vhodnú pre cieľovú skupinu,
-- vedie ku konkrétnemu a kontrolovateľnému výsledku.
+1. odpovedá na konkrétnu otázku,
+1. používa iba relevantné zdroje,
+1. oddeľuje fakty od interpretácií,
+1. zachováva konfliktné tvrdenia namiesto ich umelého zjednotenia,
+1. obsahuje citácie pri rozhodujúcich údajoch,
+1. citácia podporuje celé tvrdenie,
+1. nevymýšľa chýbajúce dátumy, čísla alebo rozhodnutia,
+1. označuje neistotu a chýbajúce informácie,
+1. používa terminológiu vhodnú pre cieľovú skupinu,
+1. vedie ku konkrétnemu a kontrolovateľnému výsledku.
 
 ### Hodnotenie laboratória
 
@@ -368,7 +368,7 @@ Výstup považujeme za kvalitný, keď:
 
 Podrobné riešenia a hodnotiaca rubrika sú v súbore [`03_Riesenia_a_hodnotenie.md`](materials/03_Riesenia_a_hodnotenie.md).
 
-## ⚠️ Časté chyby pri práci s NotebookLM
+## ⚠️ Časté chyby pri práci s Gemini Notebook (NotebookLM)
 
 ### Zapnutie všetkých zdrojov bez dôvodu
 
@@ -394,18 +394,18 @@ Zápisnica môže obsahovať diskutovaný, zamietnutý aj schválený návrh. Ne
 
 Pri analýze rozhovorov nepoužívame všeobecné závery typu „obchodník komunikoval zle“. Vyžadujeme konkrétnu pasáž a vysvetlenie jej dôsledku.
 
-## 🔒 Bezpečnosť a ochrana údajov NotebookLM
+## 🔒 Bezpečnosť a ochrana údajov Gemini Notebook (NotebookLM)
 
 Cvičné rozhovory, smernice a zápisnice v tomto repozitári sú modelové vzdelávacie dáta.
 
 Pri práci s vlastnými materiálmi dodržiavame tieto pravidlá:
 
-- nevkladáme heslá, API kľúče, prístupové tokeny ani prihlasovacie údaje,
-- anonymizujeme mená, e-mailové adresy, telefónne čísla a identifikátory zákazníkov,
-- nepoužívame reálne obchodné rozhovory bez oprávnenia,
-- kontrolujeme interné pravidlá organizácie pre používanie AI nástrojov,
-- pri citlivých dokumentoch overujeme, kto má k notebooku a výstupom prístup,
-- pred zdieľaním manuálne skontrolujeme citácie aj obsah výsledného dokumentu.
+1. nevkladáme heslá, API kľúče, prístupové tokeny ani prihlasovacie údaje,
+1. anonymizujeme mená, e-mailové adresy, telefónne čísla a identifikátory zákazníkov,
+1. nepoužívame reálne obchodné rozhovory bez oprávnenia,
+1. kontrolujeme interné pravidlá organizácie pre používanie AI nástrojov,
+1. pri citlivých dokumentoch overujeme, kto má k notebooku a výstupom prístup,
+1. pred zdieľaním manuálne skontrolujeme citácie aj obsah výsledného dokumentu.
 
 ## 📚 Oficiálne zdroje a dokumentácia Gemini Notebook (NotebookLM)
 
