@@ -256,6 +256,8 @@ Hlavné materiály:
 - [`03_Riesenia_a_hodnotenie.md`](materials/03_Riesenia_a_hodnotenie.md) - vzorové riešenia a hodnotiace kritériá,
 - [`04_Tahak_prompty.md`](materials/04_Tahak_prompty.md) - opakovateľné promptové vzory.
 
+Podrobné riešenia a hodnotiaca rubrika sú v súbore [`03_Riesenia_a_hodnotenie.md`](materials/03_Riesenia_a_hodnotenie.md).
+
 ## 🚀 Rýchly štart
 
 Repozitár si môžeme naklonovať:
@@ -354,19 +356,6 @@ Výstup považujeme za kvalitný, keď:
 1. označuje neistotu a chýbajúce informácie,
 1. používa terminológiu vhodnú pre cieľovú skupinu,
 1. vedie ku konkrétnemu a kontrolovateľnému výsledku.
-
-### Hodnotenie laboratória
-
-| Oblasť | Body |
-|---|---:|
-| Správny výber zdrojov | 2 |
-| Zachytenie hlavných faktov | 2 |
-| Rozpoznanie rozporov alebo zmien | 2 |
-| Správne použitie citácií | 2 |
-| Použiteľnosť výsledného výstupu | 2 |
-| **Spolu** | **10** |
-
-Podrobné riešenia a hodnotiaca rubrika sú v súbore [`03_Riesenia_a_hodnotenie.md`](materials/03_Riesenia_a_hodnotenie.md).
 
 ## ⚠️ Časté chyby pri práci s Gemini Notebook (NotebookLM)
 
