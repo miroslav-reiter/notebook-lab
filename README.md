@@ -1,16 +1,16 @@
-# 🤖 Online Kurz Google NotebookLM Praktické Cvičenia
+# 🤖 Online Kurz Google Gemini Notebook (NotebookLM) Cvičenia
 
-Praktický repozitár pre online kurz **Google NotebookLM Praktické cvičenia** na mierne pokročilej úrovni. Kurz je určený používateľom, ktorí už vedia vytvoriť notebook, pridať zdroje, používať chat a otvárať citácie. Nezaoberáme sa základným ovládaním. Trénujeme postupy, ktoré pomáhajú získať presnejšie, overiteľné a reálne použiteľné výstupy. V kurze pracujeme najmä s porovnávaním viacerých zdrojov, analýzou prepisov, rozpoznávaním zmien medzi verziami dokumentov, kontrolou citácií a syntézou oficiálnej dokumentácie.
+Praktický repozitár pre online kurz **Google Gemini Notebook (NotebookLM) Praktické cvičenia** na mierne pokročilej úrovni. Kurz je určený používateľom, ktorí už vedia vytvoriť notebook, pridať zdroje, používať chat a otvárať citácie. Nezaoberáme sa základným ovládaním. Trénujeme postupy, ktoré pomáhajú získať presnejšie, overiteľné a reálne použiteľné výstupy. V kurze pracujeme najmä s porovnávaním viacerých zdrojov, analýzou prepisov, rozpoznávaním zmien medzi verziami dokumentov, kontrolou citácií a syntézou oficiálnej dokumentácie.
 
 > NotebookLM nepoužívame iba na sumarizovanie. Používame ho na riadenú analýzu zdrojov, porovnávanie tvrdení a tvorbu výstupov, ktoré vieme spätne overiť.
 
-## 📌 Čo je Google NotebookLM
+## 📌 Čo je Google Gemini Notebook (NotebookLM)
 
-Google NotebookLM je nástroj na prácu s vlastnými zdrojmi. Do notebooku pridáme dokumenty, webové stránky, prepisy videí, zvukové súbory alebo ďalšie podporované materiály a následne nad nimi kladieme otázky, porovnávame tvrdenia a vytvárame výstupy.
+Google Gemini Notebook (NotebookLM) je nástroj na prácu s vlastnými zdrojmi. Do notebooku pridáme dokumenty, webové stránky, prepisy videí, zvukové súbory alebo ďalšie podporované materiály a následne nad nimi kladieme otázky, porovnávame tvrdenia a vytvárame výstupy.
 
 Hlavný rozdiel oproti bežnému chatbotu je v tom, že odpovede môžeme viazať na konkrétny súbor zdrojov. NotebookLM pri odpovediach uvádza citácie, cez ktoré vieme prejsť na príslušnú pasáž v zdroji.
 
-NotebookLM však automaticky nerozhoduje:
+Gemini Notebook však automaticky nerozhoduje:
 
 - ktorý dokument je najaktuálnejší,
 - ktorý zdroj je záväzný,
@@ -22,7 +22,7 @@ Preto v tomto kurze trénujeme nielen generovanie odpovedí, ale najmä výber z
 
 ## 📌 Základná syntax
 
-NotebookLM nemá programovací jazyk ani príkazovú syntax. Pri praktickej práci však používame opakovateľnú skladbu zadania:
+Gemini Notebook nemá programovací jazyk ani príkazovú syntax. Pri praktickej práci však používame opakovateľnú skladbu zadania:
 
 ```text
 ZDROJE + ÚLOHA + PRAVIDLÁ + FORMÁT VÝSTUPU + KONTROLA
@@ -32,7 +32,7 @@ Univerzálna šablóna:
 
 ```text
 Na základe vybraných zdrojov vykonaj túto úlohu:
-[čo má NotebookLM zistiť alebo vytvoriť]
+[čo má Gemini Notebook zistiť alebo vytvoriť]
 
 Dodrž tieto pravidlá:
 - používaj iba informácie zo zdrojov,
@@ -67,7 +67,7 @@ NotebookLM môžeme použiť napríklad na:
 - prípravu briefingu pre vedenie, checklistu pre realizátora alebo podkladov pre školenie,
 - audit tvrdení a kontrolu, či citácie podporujú celý záver.
 
-NotebookLM je najužitočnejší vtedy, keď máme viacero zdrojov a potrebujeme z nich vytvoriť kontrolovateľný výstup. Menej užitočný je pri otázkach, na ktoré sme neposkytli relevantné alebo dostatočne kvalitné zdroje.
+Gemini Notebook je najužitočnejší vtedy, keď máme viacero zdrojov a potrebujeme z nich vytvoriť kontrolovateľný výstup. Menej užitočný je pri otázkach, na ktoré sme neposkytli relevantné alebo dostatočne kvalitné zdroje.
 
 ## 🧾 Praktické príklady promptov
 
@@ -407,7 +407,7 @@ Pri práci s vlastnými materiálmi dodržiavame tieto pravidlá:
 - pri citlivých dokumentoch overujeme, kto má k notebooku a výstupom prístup,
 - pred zdieľaním manuálne skontrolujeme citácie aj obsah výsledného dokumentu.
 
-## 📚 Oficiálne zdroje a dokumentácia NotebookLM
+## 📚 Oficiálne zdroje a dokumentácia Gemini Notebook (NotebookLM)
 
 Funkcie NotebookLM sa priebežne menia. Pred školením preto kontrolujeme aktuálnu dokumentáciu.
 
@@ -420,7 +420,7 @@ Funkcie NotebookLM sa priebežne menia. Pred školením preto kontrolujeme aktu�
 
 Kompletný pracovný zoznam zdrojov je uložený v adresári [`LAB_D_Oficialna_synteza`](materials/LAB_D_Oficialna_synteza/).
 
-## 📖 Knihy o Google NotebookLM
+## 📖 Knihy o Google Gemini Notebook NotebookLM)
 
 Nasledujúce tituly sú nezávislé príručky dostupné na Amazone. Nejde, ale o oficiálne publikácie spoločnosti Google.
 
