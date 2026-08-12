@@ -400,12 +400,12 @@ Pri práci s vlastnými materiálmi dodržiavame tieto pravidlá:
 
 Funkcie NotebookLM sa priebežne menia. Pred školením preto kontrolujeme aktuálnu dokumentáciu.
 
-- NotebookLM Help: https://support.google.com/notebooklm/
-- Add or discover new sources: https://support.google.com/notebooklm/answer/16215270
-- Use chat in NotebookLM: https://support.google.com/notebooklm/answer/16179559
-- Create and manage notes: https://support.google.com/notebooklm/answer/16262519
-- Generate Audio Overviews: https://support.google.com/notebooklm/answer/16212820
-- Generate Slide Decks: https://support.google.com/notebooklm/answer/16757456
+1. NotebookLM Help: https://support.google.com/notebooklm/
+1. Add or discover new sources: https://support.google.com/notebooklm/answer/16215270
+1. Use chat in NotebookLM: https://support.google.com/notebooklm/answer/16179559
+1. Create and manage notes: https://support.google.com/notebooklm/answer/16262519
+1. Generate Audio Overviews: https://support.google.com/notebooklm/answer/16212820
+1. Generate Slide Decks: https://support.google.com/notebooklm/answer/16757456
 
 Kompletný pracovný zoznam zdrojov je uložený v adresári [`LAB_D_Oficialna_synteza`](materials/LAB_D_Oficialna_synteza/).
 
