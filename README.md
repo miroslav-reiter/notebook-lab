@@ -56,17 +56,17 @@ Praktické pravidlo: kvalitný prompt neurčuje iba tému. Určuje aj zdroje, an
 
 NotebookLM môžeme použiť napríklad na:
 
-- porovnávanie viacerých odborných článkov alebo návodov,
-- hľadanie konsenzu a protichodných odporúčaní,
-- analýzu prepisov obchodných, výskumných alebo používateľských rozhovorov,
-- vytváranie chronológie udalostí z viacerých dokumentov,
-- porovnávanie starej a novej verzie smernice, zmluvy alebo metodiky,
-- rozlíšenie schválených rozhodnutí od návrhov a diskusných bodov,
-- vytvorenie registra požiadaviek, rizík, námietok alebo otvorených otázok,
-- syntézu oficiálnej dokumentácie do praktického pracovného postupu,
-- prípravu briefingu pre vedenie, checklistu pre realizátora alebo podkladov pre školenie,
-- audit tvrdení a kontrolu, či citácie podporujú celý záver.
-
+1. porovnávanie viacerých odborných článkov alebo návodov
+1. hľadanie konsenzu a protichodných odporúčaní
+1. analýzu prepisov obchodných, výskumných alebo používateľských rozhovorov
+1. vytváranie chronológie udalostí z viacerých dokumentov
+1. porovnávanie starej a novej verzie smernice, zmluvy alebo metodiky
+1. rozlíšenie schválených rozhodnutí od návrhov a diskusných bodov
+1. vytvorenie registra požiadaviek, rizík, námietok, cenových ponúk alebo otvorených otázok
+1. syntézu oficiálnej dokumentácie do praktického pracovného postupu
+1. prípravu briefingu pre vedenie, checklistu pre realizátora alebo podkladov pre školenie
+1. audit tvrdení a kontrolu, či citácie podporujú celý záver
+   
 Gemini Notebook je najužitočnejší vtedy, keď máme viacero zdrojov a potrebujeme z nich vytvoriť kontrolovateľný výstup. Menej užitočný je pri otázkach, na ktoré sme neposkytli relevantné alebo dostatočne kvalitné zdroje.
 
 ## 🧾 Praktické príklady promptov
